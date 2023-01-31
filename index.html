@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="PaymentForm.css">
+    <title>Payment Form</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+      <center>
+        <h1></h1>
+        <h2>Payment Form</h2>
+        <i>
+          <h3>Contact Information</h3>
+        </i>
+       
+        <p>
+          Name:-
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your full name"
+            size="50%"
+            required
+          />
+        </p>
+          <p class="gender"> 
+            Gender:- <em></em>
+          Male-<input type="radio" name="gender" id="male" /> 
+          Female-<input type="radio" name="gender" id="female" /> 
+          Other-<input type="radio" name="gender" id="other" />
+        </p>
+        <p>
+          Address:-
+          <textarea
+            name="address"
+            id="address"
+            cols="46"
+            rows="5"
+            placeholder="Enter your address information ..."
+            required
+          ></textarea>
+        </p>
+        <br>
+        <br>
+        <p>
+          E-mail:-
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email ............ @gmail.com"
+            size="50%"
+            required
+          />
+        </p>
+        
+        <p>
+          Pincode:-
+          <input
+            type="number"
+            name="pincode"
+            id="pincode"
+            placeholder="Enter pincode"
+          />
+        </p>
+        <i>
+          <h3>Payment Information</h3>
+        </i>
+        
+        <p>
+          Card
+          Type:-
+          <select name="card" id="card">
+            <option value="">--Select a card type--</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="visa">Visa</option>
+          </select>
+        </p>
+        <p>
+          Card Number:-
+         
+          <input
+            type="number"
+            name="cno"
+            id="cno"
+            placeholder="Enter card number"
+            required
+          />
+        </p>
+        <p>
+          Expire Date:-
+          <input type="date" name="expire" id="expire" required />
+        </p>
+        <p>
+          CVV:-
+          
+          <input
+            type="password"
+            name="cvv"
+            id="cvv"
+            placeholder="cvv"
+            required
+          />
+        </p>
+        <p>Rate Us:- <input type="range" name="rate" id="rate" /></p>
+        <br />
+        <input type="submit" value="Pay Now" id="submit"/>
+       <br>
+        <input type="reset" value="Reset !" id="reset" />
+        <br />
+        <!-- <hr /> -->
+      </center>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,205 @@
+form{
+    border: 5px solid gold;
+    background-color: rgba(160, 170, 175, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;   
+    margin-bottom: 3%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 2%;
+}
+
+div{
+    border: 1px solid black;
+    background-color: rgba(237, 231, 231, 0.46);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;   
+    margin-bottom: 3%;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 2%;
+    box-shadow: 15px 20px rgba(0, 0, 0, 0.214);
+}
+
+h1{
+    color: white;
+    border: 2px solid white;
+    /* background-color: rgb(126, 212, 240); */
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+    background-image: url(images/rs.jfif);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    background-position: center center;
+
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-family: Garamond;
+}
+h3{
+    text-decoration: underline;
+}
+*{  
+    padding-left:2%;
+    padding-right:2%;
+    text-align:left;
+    font-weight: bold;
+}
+h1,h3,h6{
+    text-align: center;
+}
+h3,h6{
+    color: rgb(0, 0, 0);
+}
+textarea{
+    margin-left: auto;
+    margin-right: auto;
+    width: 57.5%;
+    float: right;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+#name{
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    width: 57%;
+    border-radius: 5px;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+em{
+    
+    margin-right: 54%;
+    padding-left: 52%;
+   
+    
+}
+.gender{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    shape-outside: 5px 7px   rgba(0, 0, 0, 0.214);
+}
+#email{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 57.5%;
+    float: right;
+    border-radius: 5px;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+#pincode{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 22%;
+    float: right;
+    border-radius: 5px;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+
+#card{
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+    border-radius: 5px;
+    border: 2px solid black;
+    float: right;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+.option{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#cno{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    border-radius: 5px;
+    border: 2px solid black;
+    float: right;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+#expire{
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    border-radius: 5px;
+    border: 2px solid black;
+    float: right;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+#cvv{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6%;
+    border-radius: 5px;
+    border: 2px solid black;
+    float: right;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+#rate{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    border-radius: 5px;
+    border: 2px solid black;
+    float: right;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+#rate:hover{
+    
+    cursor: pointer;
+}
+
+#submit{
+    margin-left: 43%;
+    margin-right: 70%;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: green;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+    
+    
+}
+
+#reset{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(227, 121, 134);
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    float: right;
+    box-shadow: 5px 7px rgba(0, 0, 0, 0.214);
+}
+
+#submit:hover{
+    color: black;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#reset:hover{
+    color: black;
+    background-color: red;
+    cursor:pointer;
+}
